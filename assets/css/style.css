@@ -11,3 +11,29 @@ header {
     background-color: #39a6b2;
 
 }
+
+/*This is connected to h1 in the index*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: #fce138;
+
+}
+
+header nav{
+    float: right;
+    margin: 7px 0;
+}
+
+/* What is the float declaration mean?? */
+
+header nav ul li {
+    display: inline;
+    
+}
