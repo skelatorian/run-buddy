@@ -15,7 +15,8 @@ body{
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
-
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /*This is connected to h1 in the index*/
