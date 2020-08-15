@@ -15,7 +15,9 @@ body{
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /*This is connected to h1 in the index*/
@@ -24,7 +26,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 /*The display delcartion will move our UL and LI's into the blue bg in the header portion box*/
 }
 
@@ -35,7 +36,7 @@ header a{
 }
 
 header nav{
-    float: right;
+
     margin: 7px 0;
 }
 
