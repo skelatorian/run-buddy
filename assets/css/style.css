@@ -361,6 +361,24 @@ section {
 
   /*End Flex*/
 
+  .service-grid-container {
+    display: grid;
+  }
+
+  .service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+  }
+
+
+
+
+
+
+
 /* Keep this bitch at the END of all these styles, v important*/
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREEN AND SMALLER */
