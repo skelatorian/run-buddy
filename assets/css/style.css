@@ -18,6 +18,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
 }
 
 /*This is connected to h1 in the index*/
@@ -95,7 +102,8 @@ section {
 .hero{
     background-image: url(https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 80%;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -114,6 +122,7 @@ section {
     margin: 3.5%;
     width: 40%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
  }
 
  .hero-form h3 {
@@ -133,6 +142,7 @@ section {
      color: #024e76;
      width: 100%;
      margin-bottom: 15px;
+     border-radius: 10px;
  }
  
 .hero-form label {
@@ -146,6 +156,7 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: "16px";
+    border-radius: 10px;
 
 }
 
@@ -340,6 +351,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
 }
   
 .contact-form button {
@@ -350,6 +362,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .contact-info > * {
@@ -425,6 +438,11 @@ section {
   box-shadow: 5px 10px 15px black;
 }
 
+.rounded-corners {
+  -webkit-border-radius: 10px; /* old versions of chrome and safari */
+  -moz-border-radius: 10px; /* old versions of firefox */
+  border-radius: 10px; /* standardized browsers */
+}
 
 
 
@@ -444,6 +462,7 @@ section {
     header {
       padding-bottom: 0;
       justify-content: center;
+      position: relative;
     }
   
     header h1 {
